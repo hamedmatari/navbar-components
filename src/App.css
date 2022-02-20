@@ -1,0 +1,9 @@
+@font-face {
+  font-family: Yekan;
+  src: url(/public/font/Yekan\ Bakh\ EN\ 05\ Medium.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Yekan;
+}

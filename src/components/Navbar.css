@@ -1,0 +1,76 @@
+.nav {
+  position: fixed;
+  left: 0px;
+  top: 30px;
+  width: 90%;
+  height: 60px;
+  display: flex;
+  color: white;
+  background: rgb(0, 137, 167);
+  background: linear-gradient(
+    149deg,
+    rgba(0, 137, 167, 1) 9%,
+    rgba(0, 107, 130, 1) 43%,
+    rgba(5, 77, 92, 1) 88%
+  );
+  border-top-right-radius: 60px;
+  border-bottom-right-radius: 60px;
+  box-shadow: 0 10px 5px rgba(0, 0, 0, 0.39);
+}
+.gap {
+  height: 100%;
+  width: 140px;
+  background-color: yellow;
+}
+.container {
+  position: relative;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+
+  /* background-color: brown; */
+}
+.avatar-border {
+  position: relative;
+  left: 10px;
+  height: 130%;
+  width: 80px;
+  border-radius: 50%;
+  border: 6px solid orange;
+}
+.avatar {
+  position: absolute;
+  width: 95%;
+  height: 95%;
+  border-radius: 50%;
+  background-color: black;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.menu-item {
+  background-color: #fff;
+  padding: 5px 25px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  transition: all 0.4s;
+  color: black;
+  cursor: pointer;
+}
+.menu-item:hover {
+  transform: scale(1.1);
+}
+.icon-navbar {
+  background-color: #fff;
+  margin-left: 10px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.icon-navbar:hover {
+  transform: scale(1.3);
+}
